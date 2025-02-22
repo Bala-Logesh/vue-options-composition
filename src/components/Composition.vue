@@ -4,7 +4,7 @@
         <div class="input-group mb-5">
             <input type="text" class="form-control p-3" placeholder="Add a Todo" v-model="data.newTodoName"
                 @keydown.enter="addTodo">
-            <button class="btn btn-primary" style="width: 125px;" @click="addTodo">Add</button>
+            <button class="btn btn-success" style="width: 125px;" @click="addTodo">Add</button>
         </div>
         <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center p-3" v-for="todo in data.todos"
